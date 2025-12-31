@@ -42,13 +42,26 @@ Perfect for when you are cooking, washing dishes, or just feeling lazy! 🛋️
     *   "2x speed"
     *   "Search funny cats"
 
+### Optional: iOS Siri Shortcut Combo
+1.  On your iPhone or iPad, open the **Shortcuts** app.
+2.  Create a new shortcut, for example **“Watch video”**:
+    *   Add an **“Open URL”** action with your favorite video site (YouTube, Bilibili, etc.).
+    *   (Optional) Add another **“Open URL”** to jump directly to a playlist or search result.
+3.  Next time, say **“Hey Siri, watch video”** and your browser will open that page.
+4.  Tap the red microphone icon once to grant microphone permission, then control videos by voice as usual.
+
+### Limitations
+*   Works only for videos playing **inside a web browser tab**.
+*   Cannot control videos inside **native Apps** (Bilibili App, YouTube App, iQIYI App, etc.).
+*   Due to browser security, the script **cannot** bypass microphone permission popups or start recording without any user interaction.
+
 ---
 
 <a name="chinese"></a>
 ## 🇨🇳 中文教程
 
 ### 这是什么？
-这是一个极简的浏览器插件（脚本），让你能用声音控制网页上的视频。支持 B站、YouTube、爱奇艺、飞书文档录屏等几乎所有网页视频。
+这是一个极简的浏览器插件（脚本），让你能用声音控制网页上的视频。支持 B站、YouTube、飞书文档等几乎所有网页视频。
 特别适合**洗脸、做饭、葛优瘫**时使用！🛁
 
 ### 功能亮点
@@ -81,9 +94,23 @@ Perfect for when you are cooking, washing dishes, or just feeling lazy! 🛋️
     *   **“搜索 [关键词]”**
     *   **“关闭监听”** (休息一下)
 
+### 推荐的 iOS 快捷指令小连招（可选）
+1.  在 iPhone / iPad 上打开 **“快捷指令”** App。
+2.  新建一个指令，例如“看视频”：
+    *   添加一个 **“打开网址”** 操作，填入你常用的视频网站（如 `https://www.bilibili.com` 或 `https://www.youtube.com`）。
+    *   （可选）再添加一个“打开网址”操作，直接指向某个收藏夹或搜索结果页面。
+3.  以后对 Siri 说：**“嘿 Siri，看视频”**，Safari 就会自动打开到对应页面。
+4.  第一次在这个网站使用时，点一下右下角**红色麦克风**授权，以后同一网站会记住你的选择。
+
+### 使用范围与限制
+*   只能控制 **浏览器标签页中的网页视频**（地址栏能看到网址的那种）。
+*   无法控制 **独立 App 内的视频播放器**（例如 B站 App、YouTube App、爱奇艺 App 等）。
+*   部分网站会非常积极地提示“在 App 中打开”；如果你不小心跳进 App，就无法用本脚本控制，只能回到浏览器页面。
+*   出于浏览器安全限制，脚本**不能**自动绕过麦克风弹窗，也**不能**在你完全没有点击的情况下自动开始录音。
+
 ### ⚠️ 常见问题 (Pitfalls)
-1.  **麦克风权限**：第一次在某个网站使用时，浏览器会弹窗询问麦克风权限，请务必选择 **“允许” (Always Allow)**，否则无法跳转页面后自动续连。
-2.  **APP 乱跳**：如果手机老是自动跳到 B站/YouTube APP，请长按视频链接选择“在后台打开”，并拒绝一次“在 APP 中打开”的请求，浏览器就会记住了。
+1.  **麦克风权限**：第一次在某个网站使用时，浏览器会弹窗询问麦克风权限，请务必选择 **“允许” (Always Allow)**，这样后续在同一网站上体验会更顺滑。
+2.  **APP 乱跳**：如果手机老是自动跳到 B站/YouTube APP，请长按视频链接选择“在后台打开”，并拒绝一次“在 APP 中打开”的请求，浏览器通常就会记住你的偏好。
 
 ---
 *Created with by sisi.*
